@@ -17,12 +17,6 @@ const colorMap = {
   "unknown": "#28A745"
 };
 
-const getElementColor = (category) => {
-  if (category && category.startsWith('unknown')) {
-    return "#28A745";
-  }
-  return colorMap[category] || "#95A5A6";
-};
 
 const AtomicDiagram = ({ element }) => {
   const { isDarkMode } = useTheme();
@@ -137,35 +131,25 @@ const toggleCategories = () => {
 
 const handleCategoryClick = (category) => {
     if (highlightedCategory === category) {
-        setHighlightedCategory(null); // Toggle off if same category
+        setHighlightedCategory(null); 
     } else {
-        setHighlightedCategory(category); // Highlight new category
+        setHighlightedCategory(category); 
     }
 }
 
-// Helper function to check if an element matches the highlighted category
 const isElementHighlighted = (elementCategory, highlightedCategory) => {
     if (!highlightedCategory) return false;
-    
-    // Handle unknown categories - if highlighting "unknown", match all categories that start with "unknown"
-    if (highlightedCategory === "unknown") {
-        return elementCategory && elementCategory.startsWith('unknown');
-    }
-    
-    // For all other categories, exact match
     return elementCategory === highlightedCategory;
 }
 
-// Helper function to check if an element should be dimmed
+
 const isElementDimmed = (elementCategory, highlightedCategory) => {
     if (!highlightedCategory) return false;
     return !isElementHighlighted(elementCategory, highlightedCategory);
 }
   return (
-    
     <div className={`main-content ${selectedElement ? 'sidebar-open' : ''}`}>
-
-    <div>
+      <div>
         <div className="header-controls">
           <h1>Periodic Table</h1>
           <div className="header-buttons">
@@ -198,7 +182,6 @@ const isElementDimmed = (elementCategory, highlightedCategory) => {
         </div>
       )}
 
-      {/* Periodic Table */}
       <div className="periodic-table">
         {data.elements.map((element) => (
           <div
@@ -209,7 +192,6 @@ const isElementDimmed = (elementCategory, highlightedCategory) => {
             style={{
               gridRow: element.ypos,
               gridColumn: element.xpos,
-              borderColor: getElementColor(element.category),
             }}
           >
             <strong>{element.symbol}</strong>
@@ -228,7 +210,6 @@ const isElementDimmed = (elementCategory, highlightedCategory) => {
               <div className="element-symbol">{selectedElement.symbol}</div>
             </div>
 
-            {/* Atomic Structure Diagram */}
             <AtomicDiagram element={selectedElement} />
 
             <div className="properties-section">
@@ -304,8 +285,8 @@ const isElementDimmed = (elementCategory, highlightedCategory) => {
           </div>
         </div>
       )}
+      </div>
     </div>
-</div>
   );
 };
 
