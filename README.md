@@ -1,33 +1,66 @@
-# Getting Started with Create React App
+# Interactive Periodic Table
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A beautiful, interactive periodic table built with React featuring element details, category filtering, and dark/light theme support.
+
+## Features
+
+- 🎨 **Interactive Design**: Hover effects and clickable elements
+- 🌗 **Dark/Light Theme**: Toggle between themes for better viewing experience
+- 📊 **Element Categories**: Filter elements by category (metals, nonmetals, noble gases, etc.)
+- 📱 **Responsive**: Works on desktop and mobile devices
+- ℹ️ **Detailed Information**: Click on any element to see detailed properties
+- 🎯 **Visual Highlighting**: Category-based color coding and highlighting
+
+## Demo
+
+![Periodic Table Preview](preview.png)
+
+## Technologies Used
+
+- **React 19.1.0** - Frontend framework
+- **CSS3** - Styling with CSS Grid and Flexbox
+- **JavaScript (ES6+)** - Modern JavaScript features
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (version 14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/periodic-table.git
+cd periodic-table
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm start
+```
+
+4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Available Scripts
 
-In the project directory, you can run:
-
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Runs the app in development mode. The page will reload when you make changes.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Builds the app for production to the `build` folder. The build is optimized for best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `npm test`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Launches the test runner in interactive watch mode.
 
 ### `npm run eject`
 

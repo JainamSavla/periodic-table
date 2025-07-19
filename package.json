@@ -1,7 +1,9 @@
 {
-  "name": "react-app",
-  "version": "0.1.0",
+  "name": "interactive-periodic-table",
+  "version": "1.0.0",
+  "description": "An interactive periodic table built with React featuring element details, theme switching, and category filtering",
   "private": true,
+  "homepage": "https://yourusername.github.io/periodic-table",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
