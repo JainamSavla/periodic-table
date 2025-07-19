@@ -12,6 +12,7 @@ A beautiful, interactive periodic table built with React featuring element detai
 - 🎯 **Visual Highlighting**: Category-based color coding and highlighting
 
 ## Demo
+<img width="1138" height="718" alt="image" src="https://github.com/user-attachments/assets/6428597b-6f51-46c1-aa58-2c96fc4d7743" />
 <img width="1566" height="731" alt="image" src="https://github.com/user-attachments/assets/1cfa3a8e-4838-4875-a77d-7870738cf351" />
 <img width="1198" height="724" alt="image" src="https://github.com/user-attachments/assets/2668afaf-ee3e-4efe-a75e-d33622adfa1c" />
 
