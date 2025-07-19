@@ -12,8 +12,13 @@ A beautiful, interactive periodic table built with React featuring element detai
 - 🎯 **Visual Highlighting**: Category-based color coding and highlighting
 
 ## Demo
+Link:-https://jainamsavla.github.io/periodic-table/
+<img width="1138" height="718" alt="image" src="https://github.com/user-attachments/assets/6428597b-6f51-46c1-aa58-2c96fc4d7743" />
+<img width="1566" height="731" alt="image" src="https://github.com/user-attachments/assets/1cfa3a8e-4838-4875-a77d-7870738cf351" />
+<img width="1198" height="724" alt="image" src="https://github.com/user-attachments/assets/2668afaf-ee3e-4efe-a75e-d33622adfa1c" />
 
-![Periodic Table Preview](preview.png)
+
+
 
 ## Technologies Used
 
@@ -72,32 +77,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
